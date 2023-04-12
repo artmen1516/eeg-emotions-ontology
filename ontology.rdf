@@ -13,11 +13,42 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_79eb8ff0_73d2_4b54_ba43_122e5dcf52b3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_79eb8ff0_73d2_4b54_ba43_122e5dcf52b3">
+        <rdfs:label xml:lang="en">facialExpression</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_00e87546_6d10_4e41_8b92_5323e37204fa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_00e87546_6d10_4e41_8b92_5323e37204fa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_7bfd43f9_9676_4139_b659_15a02df56090"/>
+        <rdfs:comment>Near-Infrared Spectroscopy (NIRS)
+
+This technique involves using light to measure changes in blood flow in the brain. NIRS can be used to detect changes in brain activity associated with different emotions.</rdfs:comment>
+        <rdfs:label xml:lang="en">NIRS</rdfs:label>
+    </owl:Class>
     
 
 
@@ -41,6 +72,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_108d5691_d158_42e1_88da_421b87c05e1a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_108d5691_d158_42e1_88da_421b87c05e1a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_f5bd2383_f38a_4dbe_b16d_13f57ea0c8de"/>
+        <rdfs:comment>Source Localization
+
+This technique involves identifying the specific brain regions that are activated during emotional processing. Source localization can be used to detect changes in brain activity associated with different emotions.</rdfs:comment>
+        <rdfs:label xml:lang="en">SourceLocalization</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_1f5eb2f0_1a83_40d1_8913_6301cfab9934 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_1f5eb2f0_1a83_40d1_8913_6301cfab9934">
@@ -56,6 +99,18 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_7a0cfb6f_f0c7_4d27_8616_65ef0d84057c"/>
         <rdfs:comment>This technique involves training deep neural networks on large datasets of facial expressions to recognize emotions. Convolutional neural networks (CNNs) and recurrent neural networks (RNNs) are commonly used in this approach.</rdfs:comment>
         <rdfs:label xml:lang="en">DeepLearning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_296f90cf_47f7_4202_82e7_6c3e179afbba -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_296f90cf_47f7_4202_82e7_6c3e179afbba">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_47b4b97b_b832_4bca_8ef2_c9df17335585"/>
+        <rdfs:comment>High-Density EEG Systems
+
+These are EEG systems that use a large number of electrodes (usually over 64) to provide a more detailed and accurate picture of brain activity. High-density EEG systems are often used in research on cognitive neuroscience and brain-computer interfaces.</rdfs:comment>
+        <rdfs:label xml:lang="en">HighDensityEEGSystems</rdfs:label>
     </owl:Class>
     
 
@@ -79,12 +134,36 @@
     
 
 
+    <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_3168d701_9d7a_498a_9662_bf46257ac216 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_3168d701_9d7a_498a_9662_bf46257ac216">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_f5bd2383_f38a_4dbe_b16d_13f57ea0c8de"/>
+        <rdfs:comment>Independent Component Analysis (ICA)
+
+This technique involves separating the EEG signals into different independent components, which can be associated with specific neural processes. ICA can be used to detect changes in brain activity associated with different emotions.</rdfs:comment>
+        <rdfs:label xml:lang="en">ICA</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_3b1fa1a1_d72a_46e7_b8e1_b8a363d3d936 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_3b1fa1a1_d72a_46e7_b8e1_b8a363d3d936">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_55763599_906c_4b4e_b2b9_d22055d224bd"/>
         <rdfs:comment>This technique involves extracting acoustic features from speech, such as energy, pitch, and spectral features, and using machine learning algorithms to classify them into different emotions.</rdfs:comment>
         <rdfs:label xml:lang="en">FeatureBased</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_3dd3363a_a486_4d7d_b4d7_fa88995c2493 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_3dd3363a_a486_4d7d_b4d7_fa88995c2493">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_47b4b97b_b832_4bca_8ef2_c9df17335585"/>
+        <rdfs:comment>Dry Electrode EEG Systems
+
+These are EEG systems that use dry electrodes that do not require gel or paste to be applied to the scalp. Dry electrode EEG systems are more convenient and less messy than traditional EEG systems but may have lower signal quality.</rdfs:comment>
+        <rdfs:label xml:lang="en">DryElectrodeEEGSystems</rdfs:label>
     </owl:Class>
     
 
@@ -99,6 +178,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_41b325db_6ea8_4a75_a946_3a5232f58f26 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_41b325db_6ea8_4a75_a946_3a5232f58f26">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_b05d7fea_7d6b_4a09_b705_838e4e793516"/>
+        <rdfs:comment>This technique involves observing changes in interpersonal interactions, such as eye contact and social cues, to detect emotions. Different emotions are associated with different patterns of interpersonal interactions, and this technique can be used to detect these patterns.</rdfs:comment>
+        <rdfs:label xml:lang="en">InterpersonalInteractions</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_46dde7d3_9297_4039_b73b_14960573627a -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_46dde7d3_9297_4039_b73b_14960573627a">
@@ -109,12 +198,55 @@
     
 
 
+    <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_47b4b97b_b832_4bca_8ef2_c9df17335585 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_47b4b97b_b832_4bca_8ef2_c9df17335585">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_e22fe55b_3912_455a_9140_3587ed3f9933"/>
+        <rdfs:label xml:lang="en">Hardware</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_4dcbe986_90f1_47e0_85f1_ea4644a1afd0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_4dcbe986_90f1_47e0_85f1_ea4644a1afd0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_b05d7fea_7d6b_4a09_b705_838e4e793516"/>
+        <rdfs:comment>This technique involves asking individuals to report their emotions directly. Self-reports can be used to validate other techniques, such as physiological measures and behavioral observations.</rdfs:comment>
+        <rdfs:label xml:lang="en">SelfReports</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_55763599_906c_4b4e_b2b9_d22055d224bd -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_55763599_906c_4b4e_b2b9_d22055d224bd">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_1f5eb2f0_1a83_40d1_8913_6301cfab9934"/>
         <rdfs:comment>Speech analysis involves analyzing the tone, pitch, and rhythm of a person&apos;s voice to detect emotions. This method uses machine learning algorithms to detect patterns in speech that are associated with different emotions.</rdfs:comment>
         <rdfs:label xml:lang="en">SpeechAnalysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_573a9bfb_22ba_42c2_bf8c_3e4930029b45 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_573a9bfb_22ba_42c2_bf8c_3e4930029b45">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_47b4b97b_b832_4bca_8ef2_c9df17335585"/>
+        <rdfs:comment>Ambulatory EEG Systems
+
+These are portable EEG systems that allow patients to go about their daily activities while wearing the EEG cap. Ambulatory EEG systems are often used for diagnosing and monitoring epilepsy and other neurological disorders.</rdfs:comment>
+        <rdfs:label xml:lang="en">AmbulatoryEEGSystems</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_5a1a401b_54a0_4fa9_b9a6_cc05eb694aaf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_5a1a401b_54a0_4fa9_b9a6_cc05eb694aaf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_7bfd43f9_9676_4139_b659_15a02df56090"/>
+        <rdfs:comment>Positron Emission Tomography (PET)
+
+This technique involves using radioactive tracers to measure changes in brain metabolism, which can be an indicator of neural activity. PET can be used to detect changes in brain activity associated with different emotions.</rdfs:comment>
+        <rdfs:label xml:lang="en">PET</rdfs:label>
     </owl:Class>
     
 
@@ -177,6 +309,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_7b7a06df_2024_4e15_a006_0931e99fa8b2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_7b7a06df_2024_4e15_a006_0931e99fa8b2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_b05d7fea_7d6b_4a09_b705_838e4e793516"/>
+        <rdfs:comment>This technique involves observing changes in facial expressions, such as smiling or frowning, to detect emotions. Different emotions are associated with different patterns of facial expressions, and this technique can be used to detect these patterns.</rdfs:comment>
+        <rdfs:label xml:lang="en">FacialExpression</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_7bfd43f9_9676_4139_b659_15a02df56090 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_7bfd43f9_9676_4139_b659_15a02df56090">
@@ -217,6 +359,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_9443f517_43c0_4f88_9328_b5cc221f3370 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_9443f517_43c0_4f88_9328_b5cc221f3370">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_f5bd2383_f38a_4dbe_b16d_13f57ea0c8de"/>
+        <rdfs:comment>Event-related potentials (ERPs)
+
+This technique involves measuring changes in brain activity in response to specific stimuli or events, such as the presentation of emotional images or sounds. Different emotions are associated with different patterns of brain activity, and ERPs can be used to detect these patterns.</rdfs:comment>
+        <rdfs:label xml:lang="en">ERPs</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_a1590f0b_6a1c_403b_9952_6d02a0e6450f -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_a1590f0b_6a1c_403b_9952_6d02a0e6450f">
@@ -233,6 +387,30 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_1f5eb2f0_1a83_40d1_8913_6301cfab9934"/>
         <rdfs:comment>This method involves measuring physiological responses, such as heart rate, skin conductance, and breathing rate, to detect emotions. These measures are often used in combination with other methods, such as facial expression analysis or speech analysis, to provide a more comprehensive understanding of a person&apos;s emotional state.</rdfs:comment>
         <rdfs:label xml:lang="en">PhysiologicalMeasures</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_a2f2204d_d3f4_4b74_82bd_603e9dfb1934 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_a2f2204d_d3f4_4b74_82bd_603e9dfb1934">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_47b4b97b_b832_4bca_8ef2_c9df17335585"/>
+        <rdfs:comment>Electroencephalograph (EEG) System
+
+This is the most common device used for collecting EEG signals. An EEG system typically consists of a cap with multiple electrodes placed on the scalp, an amplifier that amplifies the signals, and a computer that stores and processes the data.</rdfs:comment>
+        <rdfs:label xml:lang="en">EEGSystem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_a6131e21_09d0_4f04_9e63_168574c50fe2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_a6131e21_09d0_4f04_9e63_168574c50fe2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_f5bd2383_f38a_4dbe_b16d_13f57ea0c8de"/>
+        <rdfs:comment>Coherence Analysis
+
+This technique involves analyzing the coherence or synchrony between different brain regions, which can be an indicator of emotional processing. Coherence analysis can be used to detect changes in brain connectivity associated with different emotions.</rdfs:comment>
+        <rdfs:label xml:lang="en">CoherenceAnalysis</rdfs:label>
     </owl:Class>
     
 
@@ -257,12 +435,46 @@
     
 
 
+    <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_af046c2a_f7c2_4e89_9dab_3372c29b24bc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_af046c2a_f7c2_4e89_9dab_3372c29b24bc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_f5bd2383_f38a_4dbe_b16d_13f57ea0c8de"/>
+        <rdfs:comment>Power Spectral Density (PSD)
+
+This technique involves analyzing changes in the power or frequency of brain waves, which can be an indicator of emotional arousal. Different emotions are associated with different patterns of brain wave activity, and PSD can be used to detect these patterns.</rdfs:comment>
+        <rdfs:label xml:lang="en">PSD</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_b05d7fea_7d6b_4a09_b705_838e4e793516 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_b05d7fea_7d6b_4a09_b705_838e4e793516">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_1f5eb2f0_1a83_40d1_8913_6301cfab9934"/>
         <rdfs:comment>This method involves observing a person&apos;s behavior to detect emotions. Behavioral observations may include things like body posture, gestures, and movements, which can provide clues about a person&apos;s emotional state.</rdfs:comment>
         <rdfs:label xml:lang="en">BehavioralObservations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_b50555a7_ad87_4736_9b9a_851b26f0c9e3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_b50555a7_ad87_4736_9b9a_851b26f0c9e3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_b05d7fea_7d6b_4a09_b705_838e4e793516"/>
+        <rdfs:comment>This technique involves observing changes in body posture, gestures, and movements to detect emotions. Different emotions are associated with different patterns of body language, and this technique can be used to detect these patterns.</rdfs:comment>
+        <rdfs:label xml:lang="en">BodyLanguage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_b9fd86d9_d7bc_46c5_9c87_606b0c2afed6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_b9fd86d9_d7bc_46c5_9c87_606b0c2afed6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_7bfd43f9_9676_4139_b659_15a02df56090"/>
+        <rdfs:comment>Magnetoencephalography (MEG)
+
+This technique involves measuring the magnetic fields produced by the electrical activity in the brain. MEG can be used to detect changes in brain activity associated with different emotions.</rdfs:comment>
+        <rdfs:label xml:lang="en">MEG</rdfs:label>
     </owl:Class>
     
 
@@ -287,12 +499,67 @@
     
 
 
+    <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_db369015_5a7c_4643_86af_16e994f78cc6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_db369015_5a7c_4643_86af_16e994f78cc6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_7bfd43f9_9676_4139_b659_15a02df56090"/>
+        <rdfs:comment>Functional Magnetic Resonance Imaging (fMRI)
+
+This technique involves using magnetic resonance imaging to measure changes in blood flow in the brain, which can be an indicator of neural activity. Different emotions are associated with different patterns of neural activity, and fMRI can be used to detect these patterns.</rdfs:comment>
+        <rdfs:label xml:lang="en">fMRI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_dda43e92_5912_4e3e_8039_3deb6ef00862 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_dda43e92_5912_4e3e_8039_3deb6ef00862">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_47b4b97b_b832_4bca_8ef2_c9df17335585"/>
+        <rdfs:comment>Wireless EEG Headsets
+
+These are portable EEG systems that use wireless technology to transmit the signals to a computer or mobile device. Wireless EEG headsets are often used for research on mobile brain-computer interfaces and in clinical settings.</rdfs:comment>
+        <rdfs:label xml:lang="en">WirelessEEGHeadsets</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_e22fe55b_3912_455a_9140_3587ed3f9933 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_e22fe55b_3912_455a_9140_3587ed3f9933">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_7bfd43f9_9676_4139_b659_15a02df56090"/>
+        <rdfs:comment>Electroencephalography (EEG)
+
+This technique involves measuring the electrical activity in the brain using electrodes placed on the scalp. EEG can be used to detect changes in brain activity associated with different emotions.</rdfs:comment>
+        <rdfs:label xml:lang="en">EEG</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_e7497eb7_219c_4d96_aaf7_7a680f438f67 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_e7497eb7_219c_4d96_aaf7_7a680f438f67">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_7a0cfb6f_f0c7_4d27_8616_65ef0d84057c"/>
         <rdfs:comment>This technique involves using 3D modeling to capture facial expressions from multiple angles and then using machine learning algorithms to recognize emotions.</rdfs:comment>
         <rdfs:label xml:lang="en">3DFacialExpression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_f5bd2383_f38a_4dbe_b16d_13f57ea0c8de -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_f5bd2383_f38a_4dbe_b16d_13f57ea0c8de">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_e22fe55b_3912_455a_9140_3587ed3f9933"/>
+        <rdfs:label xml:lang="en">Techniques</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_f9ad0dc4_ad07_4405_83f1_1b7364c3f974 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_f9ad0dc4_ad07_4405_83f1_1b7364c3f974">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_b05d7fea_7d6b_4a09_b705_838e4e793516"/>
+        <rdfs:comment>This technique involves observing changes in vocalizations, such as tone of voice and speech rate, to detect emotions. Different emotions are associated with different patterns of vocalizations, and this technique can be used to detect these patterns.</rdfs:comment>
+        <rdfs:label xml:lang="en">Vocalizations</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
