@@ -286,6 +286,7 @@ This technique involves using radioactive tracers to measure changes in brain me
 
     <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_7a0cfb6f_f0c7_4d27_8616_65ef0d84057c">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_1f5eb2f0_1a83_40d1_8913_6301cfab9934"/>
+        <owl:disjointWith rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:comment>This method involves analyzing facial expressions to determine emotions. Facial expression analysis uses computer vision algorithms to detect key features on a person&apos;s face, such as eyebrow position, eye gaze, and mouth shape, and then uses these features to identify emotions.</rdfs:comment>
         <rdfs:label xml:lang="en">FacialExpression</rdfs:label>
     </owl:Class>
