@@ -97,6 +97,7 @@ This technique involves identifying the specific brain regions that are activate
 
     <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_244f1780_bf28_4b44_93c7_c71357ec7330">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_7a0cfb6f_f0c7_4d27_8616_65ef0d84057c"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_55763599_906c_4b4e_b2b9_d22055d224bd"/>
         <rdfs:comment>This technique involves training deep neural networks on large datasets of facial expressions to recognize emotions. Convolutional neural networks (CNNs) and recurrent neural networks (RNNs) are commonly used in this approach.</rdfs:comment>
         <rdfs:label xml:lang="en">DeepLearning</rdfs:label>
     </owl:Class>
@@ -277,16 +278,6 @@ This technique involves using radioactive tracers to measure changes in brain me
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_2f7d78bd_d183_404f_9c92_709b255fba16"/>
         <rdfs:comment>This model represents emotions along multiple dimensions, such as valence, arousal, dominance, and potency. These dimensions capture different aspects of emotional experiences, such as how positive or negative they are, how intense they are, how much control one has over them, and how much influence they have on one&apos;s behavior.</rdfs:comment>
         <rdfs:label xml:lang="en">Dimensional</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_6e00c77e_8692_47ad_bf3a_35c301298086 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_6e00c77e_8692_47ad_bf3a_35c301298086">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/artmen/ontologies/2023/3/15/emotions-ontology#GO_55763599_906c_4b4e_b2b9_d22055d224bd"/>
-        <rdfs:comment>This technique involves training deep neural networks on large datasets of speech to recognize emotions. Convolutional neural networks (CNNs) and recurrent neural networks (RNNs) are commonly used in this approach.</rdfs:comment>
-        <rdfs:label xml:lang="en">DeepLearning</rdfs:label>
     </owl:Class>
     
 
